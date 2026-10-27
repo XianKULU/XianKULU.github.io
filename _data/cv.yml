@@ -252,27 +252,27 @@
   {
     "title": "References",
     "type": "map",
-    "contents": [
-      {
-        "name": "Prof. Lik-Hang Lee",
-        "value": "<a href=\"mailto:lik-hang.lee@polyu.edu.hk\">lik-hang.lee@polyu.edu.hk</a>"
-      },
-      {
-        "name": "Prof. Pan HUI",
-        "value": "<a href=\"mailto:panhui@ust.hk\">panhui@ust.hk</a>"
-      },
-      {
-        "name": "Prof. Mingming Fan",
-        "value": "<a href=\"mailto:mingmingfan@ust.hk\">mingmingfan@ust.hk</a>"
-      },
-      {
-        "name": "Prof. Hai-Ning Liang",
-        "value": "<a href=\"mailto:hainingliang@hkust-gz.edu.cn\">hainingliang@hkust-gz.edu.cn</a>"
-      },
-      {
-        "name": "Dr. Diego Vilela Monteiro",
-        "value": "<a href=\"mailto:diego.vilelamonteiro@esiea.fr\">diego.vilelamonteiro@esiea.fr</a><br>Associate Professor, ESIEA, Laval, France<br>Head, Interaction and Immersion Research Team (LII)<br><a href=\"https://www.esiea.fr/esiealab-recherche/lii/\">Institutional research team profile</a>"
-      }
-    ]
+"contents": [
+  {
+    "name": "Prof. Lik-Hang Lee",
+    "value": "<a href=\"mailto:lik-hang.lee@polyu.edu.hk\">lik-hang.lee@polyu.edu.hk</a><br>Assistant Professor<br>Department of Industrial and Systems Engineering<br>The Hong Kong Polytechnic University, Hong Kong SAR<br><a href=\"https://www.polyu.edu.hk/ise/people/academic-staff/lh-lee/?sc_lang=en\">Institutional faculty profile</a>"
+  },
+  {
+    "name": "Prof. Pan HUI",
+    "value": "<a href=\"mailto:panhui@ust.hk\">panhui@ust.hk</a><br>Chair Professor and Acting Thrust Head<br>Computational Media and Arts Thrust<br>The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China<br>Also Chair Professor of Emerging Interdisciplinary Areas, The Hong Kong University of Science and Technology, Hong Kong SAR<br><a href=\"https://cma.hkust-gz.edu.cn/faculty-regular/pan-hui-3/\">Institutional faculty profile</a>"
+  },
+  {
+    "name": "Prof. Mingming Fan",
+    "value": "<a href=\"mailto:mingmingfan@ust.hk\">mingmingfan@ust.hk</a><br>Associate Professor<br>Computational Media and Arts Thrust and Internet of Things Thrust<br>The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China<br>Joint appointment: Division of Integrative Systems and Design, The Hong Kong University of Science and Technology, Hong Kong SAR<br><a href=\"https://cma.hkust-gz.edu.cn/faculty-regular/mingming-fan-3/\">Institutional faculty profile</a>"
+  },
+  {
+    "name": "Prof. Hai-Ning Liang",
+    "value": "<a href=\"mailto:hainingliang@hkust-gz.edu.cn\">hainingliang@hkust-gz.edu.cn</a><br>Associate Professor<br>Computational Media and Arts Thrust<br>The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China<br><a href=\"https://cma.hkust-gz.edu.cn/faculty-regular/hai-ning-liang/\">Institutional faculty profile</a>"
+  },
+  {
+    "name": "Prof. Diego Vilela Monteiro",
+    "value": "<a href=\"mailto:diego.vilelamonteiro@esiea.fr\">diego.vilelamonteiro@esiea.fr</a><br>Associate Professor, ESIEA, Laval, France<br>Head, Interaction and Immersion Research Team (LII)<br><a href=\"https://www.esiea.fr/esiealab-recherche/lii/\">Institutional research team profile</a>"
+  }
+]
   }
 ]
