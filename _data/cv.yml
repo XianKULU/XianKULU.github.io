@@ -1,97 +1,265 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+[
+  {
+    "title": "Basics",
+    "type": "map",
+    "contents": [
+      {
+        "name": "Name",
+        "value": "Xian WANG"
+      },
+      {
+        "name": "Email",
+        "value": "<a href=\"mailto:xianwang0023@gmail.com\">xianwang0023@gmail.com</a>"
+      },
+      {
+        "name": "Website",
+        "value": "<a href=\"https://xiankulu.github.io/\">https://xiankulu.github.io/</a>"
+      },
+      {
+        "name": "Summary",
+        "value": "I am a PhD candidate at The Hong Kong Polytechnic University, with an expected graduation in May 2027. My research focuses on human-computer interaction, collaborative XR systems, multimodal interaction, and XR-enabled human-robot interaction. I combine interactive system development with controlled experiments and mixed-method evaluation."
+      }
+    ]
+  },
+  {
+    "title": "Education",
+    "type": "time_table",
+    "contents": [
+      {
+        "title": "PhD in Industrial and Systems Engineering",
+        "institution": "The Hong Kong Polytechnic University",
+        "year": "2024 - Present",
+        "location": "Hong Kong SAR",
+        "description": [
+          "May 2024 - Present; expected graduation: May 2027.",
+          "Research focus: human-computer interaction, XR collaboration, interactive systems, and XR-enabled human-robot interaction.",
+          "Supervisors: Prof. Lik-Hang Lee and Prof. George Q. Huang."
+        ]
+      },
+      {
+        "title": "MPhil in Individualized Interdisciplinary Program - Artificial Intelligence",
+        "institution": "The Hong Kong University of Science and Technology",
+        "year": "2021 - 2024",
+        "location": "Hong Kong SAR",
+        "description": [
+          "September 2021 - January 2024.",
+          "Supervisors: Prof. Pan Hui and Prof. Mingming Fan.",
+          "Postgraduate Studentship Award, 2021-2023."
+        ]
+      },
+      {
+        "title": "BSc in Electronic Science and Technology",
+        "institution": "University of Liverpool",
+        "year": "2017 - 2021",
+        "location": "Liverpool, UK",
+        "description": [
+          "September 2017 - July 2021.",
+          "First Class Honours."
+        ]
+      },
+      {
+        "title": "BSc in Electronic Science and Technology",
+        "institution": "Xi'an Jiaotong-Liverpool University",
+        "year": "2017 - 2021",
+        "location": "Suzhou, China",
+        "description": [
+          "September 2017 - July 2021.",
+          "First Class Honours.",
+          "Supervisors: Prof. Hai-Ning Liang and Prof. Diego Vilela Monteiro."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Teaching and Mentoring",
+    "type": "time_table",
+    "contents": [
+      {
+        "title": "Teaching Assistant",
+        "institution": "The Hong Kong Polytechnic University",
+        "year": "2025 - 2026",
+        "description": [
+          "ISE4025: Enterprise Analytics; ISE526: Enterprise Resources Planning.",
+          "Supported grading, examinations, and assessment activities across both courses.",
+          "Coordinated guest speakers and related course activities."
+        ]
+      },
+      {
+        "title": "Teaching Assistant",
+        "institution": "The Hong Kong Polytechnic University",
+        "year": "2024 - 2025",
+        "description": [
+          "ISE5322: Industrial Metaverse and Mixed Reality.",
+          "Developed approximately 10 hours of instructional videos on VR and Unity-based immersive-system development.",
+          "Designed and delivered a two-hour participatory design class with a hands-on workshop.",
+          "Guided a generative AI and XR course project, then contributed to its development into a co-authored systematic review published in the International Journal of Human-Computer Interaction."
+        ]
+      },
+      {
+        "title": "Teaching Assistant",
+        "institution": "The Hong Kong University of Science and Technology",
+        "year": "2022 - 2023",
+        "description": [
+          "CMAA 5017: AR/VR/MR/XR: Concepts, Theory and Techniques.",
+          "Prepared and delivered a two-hour lecture on VR concepts, interaction techniques, and immersive-system applications.",
+          "Supported assessment, grading, and examination administration."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Professional Service",
+    "type": "time_table",
+    "contents": [
+      {
+        "title": "Reviewer",
+        "institution": "CHI, CSCW, IEEE VR, ISMAR, and ACM Multimedia",
+        "year": "2022 - 2026"
+      },
+      {
+        "title": "Secretary",
+        "institution": "ISE Research Students' Conference, The Hong Kong Polytechnic University",
+        "year": "2025"
+      },
+      {
+        "title": "Reviewer",
+        "institution": "IEEE Transactions on Affective Computing",
+        "year": "2024"
+      },
+      {
+        "title": "Web Chair",
+        "institution": "ACM MobiSys",
+        "year": "2023"
+      },
+      {
+        "title": "Reviewer",
+        "institution": "Cyberpsychology, Behavior, and Social Networking",
+        "year": "2023"
+      },
+      {
+        "title": "Program Committee Member",
+        "institution": "IEEE International Symposium on Mixed and Augmented Reality (ISMAR)",
+        "year": "2022"
+      },
+      {
+        "title": "President",
+        "institution": "Student-Staff Liaison Committee, Xi'an Jiaotong-Liverpool University",
+        "year": "2018 - 2021"
+      }
+    ]
+  },
+  {
+    "title": "Honors and Awards",
+    "type": "time_table",
+    "contents": [
+      {
+        "title": "Honorable Mention - Best Paper Award (Co-recipient)",
+        "institution": "IEEE International Symposium on Mixed and Augmented Reality (ISMAR)",
+        "year": "2026"
+      },
+      {
+        "title": "Honorable Mention - Best Paper Award (Co-recipient)",
+        "institution": "IEEE International Symposium on Mixed and Augmented Reality (ISMAR)",
+        "year": "2025"
+      },
+      {
+        "title": "Top Performer, Micro Fund",
+        "institution": "The Hong Kong Polytechnic University",
+        "year": "2025",
+        "description": [
+          "HKD 20,000."
+        ]
+      },
+      {
+        "title": "Research Travel Grant",
+        "institution": "The Hong Kong University of Science and Technology",
+        "year": "2023",
+        "description": [
+          "HKD 13,500."
+        ]
+      },
+      {
+        "title": "Third Prize",
+        "institution": "RoboMaster 2019 International Regional Competition",
+        "year": "2019"
+      }
+    ]
+  },
+  {
+    "title": "Patent",
+    "type": "list",
+    "contents": [
+      "<strong>A new device and method for simulating weight and center of gravity in a virtual reality environment.</strong> Granted Chinese Patent CN112083803B."
+    ]
+  },
+  {
+    "title": "Technical Skills",
+    "type": "map",
+    "contents": [
+      {
+        "name": "XR Development",
+        "value": "Unity, C#, VR/AR/MR prototyping, interactive 3D environments, haptic prototypes, and game-engine experimental platforms."
+      },
+      {
+        "name": "Programming",
+        "value": "Python, C/C++, C#, MATLAB, JavaScript, Verilog, and LaTeX."
+      },
+      {
+        "name": "Design Tools",
+        "value": "3ds Max, Photoshop, prototype visualization, and 3D scanning workflows."
+      },
+      {
+        "name": "Hardware",
+        "value": "VR headsets and controllers, haptic devices, OpenBCI, Arduino, sensors, and TwinCAT."
+      }
+    ]
+  },
+  {
+    "title": "Languages",
+    "type": "map",
+    "contents": [
+      {
+        "name": "Chinese",
+        "value": "Native speaker"
+      },
+      {
+        "name": "English",
+        "value": "Fluent"
+      }
+    ]
+  },
+  {
+    "title": "Interests",
+    "type": "list",
+    "contents": [
+      "Piano",
+      "Ukulele"
+    ]
+  },
+  {
+    "title": "References",
+    "type": "map",
+    "contents": [
+      {
+        "name": "Prof. Lik-Hang Lee",
+        "value": "<a href=\"mailto:lik-hang.lee@polyu.edu.hk\">lik-hang.lee@polyu.edu.hk</a>"
+      },
+      {
+        "name": "Prof. Pan HUI",
+        "value": "<a href=\"mailto:panhui@ust.hk\">panhui@ust.hk</a>"
+      },
+      {
+        "name": "Prof. Mingming Fan",
+        "value": "<a href=\"mailto:mingmingfan@ust.hk\">mingmingfan@ust.hk</a>"
+      },
+      {
+        "name": "Prof. Hai-Ning Liang",
+        "value": "<a href=\"mailto:hainingliang@hkust-gz.edu.cn\">hainingliang@hkust-gz.edu.cn</a>"
+      },
+      {
+        "name": "Dr. Diego Vilela Monteiro",
+        "value": "<a href=\"mailto:diego.vilelamonteiro@esiea.fr\">diego.vilelamonteiro@esiea.fr</a><br>Associate Professor, ESIEA, Laval, France<br>Head, Interaction and Immersion Research Team (LII)<br><a href=\"https://www.esiea.fr/esiealab-recherche/lii/\">Institutional research team profile</a>"
+      }
+    ]
+  }
+]
